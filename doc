@@ -1,0 +1,51 @@
+Objectives
+
+    Synthesize and practice full-stack knowledge
+    Practice autonomous learning
+    Deploy an application
+
+Summary
+
+Is there an application that you have always wanted to make? Now you have the opportunity and skills to do it! You will have two days to create an application on your own. At the end, we want to see a functioning and deployed MVP.
+Deadline
+
+You will be presenting your projects on Wednesday Block 4 & 5.
+Beware
+
+    Minimum viable product! Make sure that your plans are feasible. Additional features can be added later.
+    PACE YOURSELF. You only have ~2 days, so plan wisely.
+
+Basic Requirements
+
+Your project must fulfill all the following requirements:
+
+    Be ready for a quick project idea check with instructors TODAY, in Block 3 & 4
+
+    We'll give you the greenlight on your idea
+
+    Be in a public repository on your GitHub, shared with the instructors.
+    A list of stories in your GitHub issues [Recommended]
+    A README with clear set up instructions, a summary detailing what the app is, resources, and any future plans. 
+
+    Unsure of what goes into a good README? Read about it here.
+    In your README, please put the following line at the top:
+
+"This was created during my time as a student at Code Chrysalis."
+
+    Pre-written scripts in your package.json that will make it easy for a new developer to set up your application
+    Must have a visual component (ex: Vue, React, standard JavaScript, etc.)
+    Web applications must be deployed (ex: Heroku, Firebase, Netlify, AWS, etc.)
+    3 minute presentation of your project
+
+    Marketing pitch for your application
+    What challenges did you face?
+    What did you learn?
+    What technologies did you use? Why?
+    A demo of your project
+
+Advanced Requirements
+
+    Use CircleCI, TravisCI or another continuous integration system
+    Use SASS, SCSS, Less or another css preprocessor to manage your CSS styles
+    Deployed to AWS or GCP
+    Using a new technology -- talk about it in your slides!
