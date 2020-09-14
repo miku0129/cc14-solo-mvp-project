@@ -1,15 +1,28 @@
+//to run this file -- node import.js
+
 const fs = require("fs");
 
-(async function (knex) {
+exports.seed = async function (knex) {
+
+//(async function (knex) {
   // Deletes ALL existing entries
-  await knex("restaurants").del();
+  console.log("1");
+  try {
+    await knex("restaurants").del();  
+  } catch (error) {
+    console.log(error)
+  }
+  
+  console.log("1.1");
   try {
     //readFileSyncには実行するディレクトリからのパスで書く
     const restaurants = JSON.parse(
       fs.readFileSync("./db/data/restaurants.json")
     );
+    console.log("2");
     for (const restaurant of restaurants) {
       const name = restaurant.name;
+      console.log("trying " + name);
       const feature = restaurant.feature;
       const tell = restaurant.tell;
       const business_hours1 = restaurant.business_hours1;
@@ -36,4 +49,5 @@ const fs = require("fs");
   //   // Inserts seed entries
   //   return knex("restaurants").insert([]);
   // });
+  console.log("end");
 })();

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 const fs = require("fs");
 
 exports.seed = async function (knex) {
