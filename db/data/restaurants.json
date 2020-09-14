@@ -2,9 +2,9 @@
   {
     "name": "シンガポール海南鶏飯",
     "feature": "Singaporean food",
-    "tel": "050-5571-4663",
+    "tell": "050-5571-4663",
     "business_hours1": "11:00-15:30",
-    "business hours2": "17:30-23:00",
+    "business_hours2": "17:30-23:00",
     "regular_holiday": "Open daily",
     "place": "Shiodome",
     "url": "http://www.hainanchifan.com/"
@@ -12,9 +12,9 @@
   {
     "name": "MOMO",
     "feature": "Nepalese food",
-    "tel": "03-3360-3301",
+    "tell": "03-3360-3301",
     "business_hours1": "11:00-15:00",
-    "business hours2": "17:00-23:00",
+    "business_hours2": "17:00-23:00",
     "regular_holiday": "Open daily",
     "place": "Ookubo",
     "url": "http://www.neparumomo.com/"
@@ -22,9 +22,9 @@
   {
     "name": "サラムナマステ",
     "feature": "Indian cuisine",
-    "tel": "03-3311-1132",
+    "tell": "03-3311-1132",
     "business_hours1": "11:00～15:00",
-    "business hours2": "17:00～23:00",
+    "business_hours2": "17:00～23:00",
     "regular_holiday": "Open daily",
     "place": "Shin-Kouenji",
     "url": "https://twitter.com/salamnamaste01"
@@ -32,9 +32,9 @@
   {
     "name": "タマンのカレー屋さん",
     "feature": "Indian-Nepalese cuisine",
-    "tel": "03-3777-7785",
+    "tell": "03-3777-7785",
     "business_hours1": "11:00～23:00",
-    "business hours2": "-",
+    "business_hours2": "-",
     "regular_holiday": "Open daily",
     "place": "Shinagawa",
     "url": "http://d.hatena.ne.jp/tamannocurry/"
@@ -42,9 +42,9 @@
   {
     "name": "NAWAB",
     "feature": "Indian cuisine",
-    "tel": "03-6240-1513",
+    "tell": "03-6240-1513",
     "business_hours1": "11:30～15:00",
-    "business hours2": "17:00～23:00",
+    "business_hours2": "17:00～23:00",
     "regular_holiday": "Open daily",
     "place": "Ueno",
     "url": "-"
@@ -52,9 +52,9 @@
   {
     "name": "Chinese cafe 8",
     "feature": "Chinese",
-    "tel": "050-5868-6430",
+    "tell": "050-5868-6430",
     "business_hours1": "Open 24hours",
-    "business hours2": "-",
+    "business_hours2": "-",
     "regular_holiday": "Open daily",
     "place": "Roppongi",
     "url": "http://www.roppongi8.jp/"
@@ -62,9 +62,9 @@
   {
     "name": "AANGAN",
     "feature": "Nepalese food",
-    "tel": "050-5592-7957",
+    "tell": "050-5592-7957",
     "business_hours1": "11:00〜24:00",
-    "business hours2": "-",
+    "business_hours2": "-",
     "regular_holiday": "Open daily",
     "place": "Shin-Okubo",
     "url": "https://tabelog.com/tokyo/A1304/A130404/13196997/"
@@ -72,9 +72,9 @@
   {
     "name": "Nong Inlay",
     "feature": "Myanmar food",
-    "tel": "03-5273-5774",
+    "tell": "03-5273-5774",
     "business_hours1": "11:30～23:30",
-    "business hours2": "-",
+    "business_hours2": "-",
     "regular_holiday": "Open daily",
     "place": "Takadanobaba",
     "url": "http://nong-inlay.com/"
@@ -82,9 +82,9 @@
   {
     "name": "Atila's hundmade curry",
     "feature": "chick peas curry",
-    "tel": "-",
+    "tell": "-",
     "business_hours1": "-",
-    "business hours2": "-",
+    "business_hours2": "-",
     "regular_holiday": "-",
     "place": "Code Chrysalis",
     "url": "-"
