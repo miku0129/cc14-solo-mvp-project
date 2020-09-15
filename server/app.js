@@ -17,9 +17,15 @@ const setupServer = () => {
   // public folder
   // app.use(express.static("public"));
 
-  //test and comment out
+  //all restaurants
   app.get("/api/restaurants", (req, res) => {
     res.send(db);
+  });
+
+  //names of all restaurants
+  app.get("/api/restaurants/name", (req, res) => {
+    let ret = db.map.name;
+    res.send(ret);
   });
 
   return app;

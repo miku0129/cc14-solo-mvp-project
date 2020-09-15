@@ -19,7 +19,7 @@ function List() {
 
     const res = await req;
     const data = res.data;
-    console.log(data);
+    console.log(data[0]);
     setState(data[0].name);
   }
 
