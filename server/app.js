@@ -17,6 +17,7 @@ const setupServer = () => {
   // public folder
   // app.use(express.static("public"));
 
+  //test and comment out
   app.get("/api/restaurants", (req, res) => {
     res.send(db);
   });

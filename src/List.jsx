@@ -10,10 +10,11 @@ function List() {
     console.log("getAllData here!");
 
     const req = axios.get("http://localhost:9000/api/restaurants");
+
     const res = await req;
     const data = res.data;
     console.log(data);
-    // setState(data);
+    setState(data[0].name);
   }
 
   return (
