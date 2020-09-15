@@ -10,8 +10,9 @@ const setupServer = () => {
 
   app.use(express.json());
 
-  //public folder
+  //you have to finish buidling frontend
   app.use(express.static(path.resolve(__dirname, "..", "buid")));
+  // public folder
   // app.use(express.static("public"));
 
   app.get("/api/restaurants", (req, res) => {
