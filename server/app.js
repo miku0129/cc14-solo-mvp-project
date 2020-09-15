@@ -1,8 +1,8 @@
 console.log("hello I'm app.js");
 const express = require("express");
 const path = require("path");
-const db = require("../db/data/knex.js");
-// const db = require("../db/data/restaurants.json");
+// const db = require("../db/data/knex.js");
+const db = require("../db/data/restaurants.json");
 const cors = require("cors");
 
 const setupServer = () => {
@@ -18,24 +18,25 @@ const setupServer = () => {
   // app.use(express.static("public"));
 
   //all restaurants
-  // app.get("/api/restaurants", (req, res) => {
-  //   console.log("I'm in /api/restaurants!");
-  //   res.send(db);
-  // });
-
-  // all restaurants take2
-  app.get("/api/restaurantssss", async (req, res) => {
-    try {
-      console.log("I'm in /api/restaurantssss!");
-      const restaurants = await db.select().table("restaurants");
-      res.send(restaurants);
-    } catch (err) {
-      console.error("Error loading locations!", err);
-      res.sendStatus(500);
-    }
+  app.get("/api/restaurants", (req, res) => {
+    console.log("I'm in /api/restaurants!");
+    res.send(db);
   });
+
+  // all restaurants take2 ... knex work but this code is broken
+  // I need to refactor
+  // app.get("/api/restaurantssss", async (req, res) => {
+  //   try {
+  //     console.log("I'm in /api/restaurantssss!");
+  //     const restaurants = await db.select().table("restaurants");
+  //     res.send(restaurants);
+  //   } catch (err) {
+  //     console.error("Error loading locations!", err);
+  //     res.sendStatus(500);
+  //   }
+  // });
 
   return app;
 };
-
+///test
 module.exports = { setupServer };
