@@ -3,10 +3,12 @@ const express = require("express");
 const path = require("path");
 // const db = require("../knex.js");
 const db = require("../db/data/restaurants.json");
+const cors = require("cors");
 
 const setupServer = () => {
   console.log("hello. in setupServer!!");
   const app = express();
+  app.use(cors());
 
   app.use(express.json());
 
