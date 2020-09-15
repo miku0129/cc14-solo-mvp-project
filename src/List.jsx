@@ -10,13 +10,12 @@ function List() {
     console.log("getAllData here!");
 
     //開発環境ではlocalURLをfetchしても良い
-    // const req = axios.get("http://localhost:9000/api/restaurants");
+    // const req = axios.get("https://localhost:9000/api/restaurants");
     //本番環境ではfetchするURL(データ）はインターネットから取る必要がある。
     //URLを手に入れるにはHerokuにてデプロイが完了している必要がある。
     const req = axios.get(
       "https://cc14solomvpproject-app.herokuapp.com/api/restaurants"
     );
-
     const res = await req;
     const data = res.data;
     console.log(data[0]);
