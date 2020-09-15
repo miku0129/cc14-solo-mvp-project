@@ -41,7 +41,5 @@
   "devDependencies": {
     "nodemon": "^2.0.4"
   },
-  "devServer": {
-    "proxy": "http//localhost:9000"
-  }
+  "proxy": "http//localhost:9000"
 }
